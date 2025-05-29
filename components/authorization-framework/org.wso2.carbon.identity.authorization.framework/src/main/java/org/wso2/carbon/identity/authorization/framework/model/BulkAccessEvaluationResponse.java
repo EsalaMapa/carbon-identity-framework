@@ -29,6 +29,8 @@ public class BulkAccessEvaluationResponse {
 
     private List<AccessEvaluationResponse> results;
 
+    public BulkAccessEvaluationResponse() {}
+
     /**
      * Constructs a {@code BulkAccessEvaluationResponse} object with the results.
      *

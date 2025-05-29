@@ -31,6 +31,8 @@ public class BulkAccessEvaluationRequest {
     // Options field is an optional field for sending meta information on how the requests should be executed.
     private Map<String, Object> options;
 
+    public BulkAccessEvaluationRequest() {}
+
     /**
      * Constructs a {@code BulkAccessEvaluationRequest} object with the list of Access Evaluation requests.
      *
